@@ -147,9 +147,9 @@ const App: React.FC = () => {
                 Entenda a Bíblia de Capa a Capa de forma simples e sem complicação
               </h2>
               
-              {/* Updated Description: Changed "DA BÍBLIA:" to lowercase "da Bíblia:" */}
+              {/* Updated Description: Changed "pontos" to "pontos dos livros" */}
               <p className="text-xl md:text-2xl text-slate-600 font-medium leading-relaxed mb-12 max-w-3xl text-center">
-                O <span className="text-brand-dark font-bold underline decoration-orange-500 decoration-4">guia digital em PDF imprimível</span> explica em uma linguagem simples e de fácil entendimento os seguintes pontos <span className="font-bold text-brand-dark italic">da Bíblia:</span>
+                O <span className="text-brand-dark font-bold underline decoration-orange-500 decoration-4">guia digital em PDF imprimível</span> explica em uma linguagem simples e de fácil entendimento os seguintes pontos dos livros <span className="font-bold text-brand-dark italic">da Bíblia:</span>
               </p>
 
               {/* Grid of Features */}
