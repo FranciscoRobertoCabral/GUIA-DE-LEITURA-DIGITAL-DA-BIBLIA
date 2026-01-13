@@ -147,7 +147,6 @@ const App: React.FC = () => {
                 Entenda a Bíblia de Capa a Capa de forma simples e sem complicação
               </h2>
               
-              {/* Updated Description: Changed "pontos" to "pontos dos livros" */}
               <p className="text-xl md:text-2xl text-slate-600 font-medium leading-relaxed mb-12 max-w-3xl text-center">
                 O <span className="text-brand-dark font-bold underline decoration-orange-500 decoration-4">guia digital em PDF imprimível</span> explica em uma linguagem simples e de fácil entendimento os seguintes pontos dos livros <span className="font-bold text-brand-dark italic">da Bíblia:</span>
               </p>
@@ -185,10 +184,15 @@ const App: React.FC = () => {
             <p className="text-6xl md:text-8xl font-black text-orange-500 drop-shadow-sm">R$ 10,00</p>
           </div>
           
-          <button className="group relative bg-white text-brand-dark px-10 py-6 rounded-full text-xl font-bold hover:bg-slate-200 transition-all flex items-center justify-center gap-3 mx-auto mb-10 shadow-2xl hover:scale-105 active:scale-95 w-full md:w-auto">
+          <a 
+            href="https://pay.celetus.com/TAJHQPG2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative bg-white text-brand-dark px-10 py-6 rounded-full text-xl font-bold hover:bg-slate-200 transition-all flex items-center justify-center gap-3 mx-auto mb-10 shadow-2xl hover:scale-105 active:scale-95 w-full md:w-auto"
+          >
             QUERO COMEÇAR AGORA
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
 
           <p className="text-slate-400 text-lg md:text-xl italic font-light">
             📌 Não é sobre ler mais. É sobre ler melhor.
