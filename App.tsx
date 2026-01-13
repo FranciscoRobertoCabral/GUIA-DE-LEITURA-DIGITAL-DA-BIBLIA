@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CheckCircle, Navigation, ArrowRight, BookCheck, Info, Layout, Target, Zap, Pencil } from 'lucide-react';
 
@@ -90,7 +89,7 @@ const App: React.FC = () => {
           </div>
           
           <h2 className="text-2xl md:text-3xl font-bold leading-relaxed mb-12">
-            Esse método foi criado para cristãos que querem mais do que informação — <span className="text-amber-400">querem transformação.</span>
+            Esse guia foi criado para cristãos que querem mais do que informação — <span className="text-amber-400">querem transformação.</span>
           </h2>
 
           <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-12 text-center items-center">
@@ -148,9 +147,9 @@ const App: React.FC = () => {
                 Entenda a Bíblia de Capa a Capa de forma simples e sem complicação
               </h2>
               
-              {/* Description */}
-              <p className="text-lg md:text-xl text-slate-600 font-medium leading-relaxed mb-12 max-w-3xl">
-                Ao adquirir o método, você terá um <span className="text-brand-dark font-bold underline decoration-amber-400 decoration-4">guia digital</span> completo para entender todos os livros da Bíblia, explicando:
+              {/* Updated Description: Changed "DA BÍBLIA:" to lowercase "da Bíblia:" */}
+              <p className="text-xl md:text-2xl text-slate-600 font-medium leading-relaxed mb-12 max-w-3xl text-center">
+                O <span className="text-brand-dark font-bold underline decoration-orange-500 decoration-4">guia digital em PDF imprimível</span> explica em uma linguagem simples e de fácil entendimento os seguintes pontos <span className="font-bold text-brand-dark italic">da Bíblia:</span>
               </p>
 
               {/* Grid of Features */}
