@@ -2,6 +2,8 @@ import React from 'react';
 import { CheckCircle, Navigation, ArrowRight, BookCheck, Info, Layout, Target, Zap, Pencil } from 'lucide-react';
 
 const App: React.FC = () => {
+  const checkoutLink = "https://pay.celetus.com/TAJHQPG2";
+
   return (
     <div className="min-h-screen bg-white">
       {/* 1. Hero Section - Problem (Dark Background) */}
@@ -35,7 +37,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. The Reframe (White Background) */}
+      {/* 3. The Reframe (White Background) - THIRD FOLD */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xl md:text-2xl font-medium text-slate-600 mb-8 italic">
@@ -47,7 +49,7 @@ const App: React.FC = () => {
               Agora imagine isso:
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               <div className="flex items-start gap-4">
                 <div className="text-2xl shrink-0">📖</div>
                 <div>
@@ -72,6 +74,19 @@ const App: React.FC = () => {
                   <h4 className="font-bold text-lg">Uma aplicação prática para viver naquele dia</h4>
                 </div>
               </div>
+            </div>
+
+            {/* Repeated Button in the Third Fold */}
+            <div className="flex justify-center">
+              <a 
+                href={checkoutLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative bg-brand-dark text-white px-8 py-5 rounded-full text-lg font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-3 shadow-xl hover:scale-105 active:scale-95 w-full md:w-auto"
+              >
+                QUERO COMEÇAR AGORA
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
@@ -185,7 +200,7 @@ const App: React.FC = () => {
           </div>
           
           <a 
-            href="https://pay.celetus.com/TAJHQPG2"
+            href={checkoutLink}
             target="_blank"
             rel="noopener noreferrer"
             className="group relative bg-white text-brand-dark px-10 py-6 rounded-full text-xl font-bold hover:bg-slate-200 transition-all flex items-center justify-center gap-3 mx-auto mb-10 shadow-2xl hover:scale-105 active:scale-95 w-full md:w-auto"
